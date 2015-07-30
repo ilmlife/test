@@ -35,7 +35,7 @@ public class Spider {
 	public void spiderBegin(String url,String domain,String localPath) throws Exception {
 		URL httpurl = new URL(url);
 		HttpURLConnection httpConn = (HttpURLConnection) httpurl.openConnection();
-		httpConn.setRequestProperty("User-Agent", "Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.16");
+		httpConn.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36");
 		httpConn.setRequestMethod("GET");
 		httpConn.setDoInput(true);
 		
