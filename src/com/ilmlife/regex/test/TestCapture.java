@@ -13,7 +13,7 @@ public class TestCapture {
 	public static void main(String[] args) {
 		String regex = "^((A)(BC))$";
 		String s = "ABC";
-		s = "1.2.3.4";
+		s = "250.2.3.4";
 		regex = "^((25[0-5]|2[0-4][0-9]|[01]?[0-9]{1,2})($|(?!\\.$)\\.)){4}$";;
 		
 		Pattern p = Pattern.compile(regex);
